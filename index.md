@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MSEM Courses
+title: MSCS Express
 permalink: /
 ---
 
