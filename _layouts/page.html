@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta name="viewport" content="width=930, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+      background-color: Ivory;
+      color: DarkSlateGray;
+      line-height: 1.5;
+      font-size: 1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    h2, h3, h4 {
+      background-color: Ivory;
+      color: #33691e;
+      text-align: left;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: bold;
+      margin: 0;
+      overflow: hidden;
+      padding: 5px;
+    }
+    h2 { font-size: 24px; }
+    h3 {
+      font-size: 16px;
+      border-top: 2px solid #33691e;
+      border-bottom: 2px solid #33691e;
+    }
+    h4 { font-size: 16px; }
+    .title {
+      background-color: #33691e;
+      color: Ivory;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 40px;
+      margin: 0;
+      overflow: hidden;
+      padding: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #33691e;
+      color: Ivory;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 16px;
+      line-height: 1;
+      margin: 5px;
+      overflow: hidden;
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 5px;
+      border: 2px solid #33691e;
+    }
+    .btn.back { font-size: 14px; width: 90px; }
+    .btn.spec1 { background-color: #c5e1a5; width: 420px; text-align: left; }
+    .btn.spec2 {
+      background-color: Ivory;
+      color: #33691e;
+      font-weight: bold;
+      width: 330px;
+      text-align: left;
+    }
+    .btn.cour1 { background-color: #33691e; width: 110px; }
+    .btn.cour2 { background-color: #558b2f; width: 110px; }
+    .btn.cour3 { background-color: #689f38; width: 110px; }
+
+    .btn.icon1 { background-color: #33691e; width: 75px; }
+    .btn.icon2 { background-color: #558b2f; width: 75px; }
+    .btn.icon3 { background-color: #689f38; width: 75px; }
+    .btn.icon4 { background-color: #7cb342; width: 75px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div style="border-top: 5px solid #33691e;"></div>
+    <div style="border-top: 3px solid Ivory;"></div>
+    <div class="title">
+      {{ page.title }}
+    </div>
+    <div style="border-bottom: 3px solid Ivory;"></div>
+    <div style="border-bottom: 5px solid #33691e;"></div>
+    <br>
+    <a href="/" class="btn back">Go Home</a>
+    <a href="javascript:history.back()" class="btn back">Go Back</a>
+    <br>
+    <div>
+      {{ content }}
+    </div>
+    <br>
+    <a href="/" class="btn back">Go Home</a>
+    <a href="javascript:history.back()" class="btn back">Go Back</a>
+  </div>
+</body>
+</html>
