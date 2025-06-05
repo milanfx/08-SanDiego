@@ -55,15 +55,25 @@ xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx
 <div>
   <span class="btn spec1"><span class="btn spec2">Specialization 05 - Interaction Design</span>
   <br>
-  <a href="/03-MSCS-Express/EXCS13/" class="btn cour1"><br></a>
-  <a href="/03-MSCS-Express/EXCS14/" class="btn cour2"><br></a>
-  <a href="/03-MSCS-Express/EXCS15/" class="btn cour3"><br></a>
+  <a href="/03-MSCS-Express/EXCS13/" class="btn icon1">Human-Centered<br>Design</a>
+  <a href="/03-MSCS-Express/EXCS14/" class="btn icon2">Design<br>Principles</a>
+  <a href="/03-MSCS-Express/EXCS15/" class="btn icon3">Social<br>Computing</a>
+  <a href="/03-MSCS-Express/EXCS15/" class="btn icon4">Input<br>& Interaction</a>
+  <br>
+  <a href="/03-MSCS-Express/EXCS13/" class="btn icon1">User<br>Experience</a>
+  <a href="/03-MSCS-Express/EXCS14/" class="btn icon2">Information<br>Design</a>
+  <a href="/03-MSCS-Express/EXCS15/" class="btn icon3">Designing<br>Experiments</a>
+  <a href="/03-MSCS-Express/EXCS15/" class="btn icon4">Capstone<br>Project</a>
   </span>
   <span class="btn spec1"><span class="btn spec2">Specialization 06 - Internet of Things</span>
   <br>
-  <a href="/03-MSCS-Express/EXCS16/" class="btn cour1"><br></a>
-  <a href="/03-MSCS-Express/EXCS17/" class="btn cour2"><br></a>
-  <a href="/03-MSCS-Express/EXCS18/" class="btn cour3"><br></a>
+  <a href="/03-MSCS-Express/EXCS16/" class="btn cour1">IoT<br>Introduction</a>
+  <a href="/03-MSCS-Express/EXCS17/" class="btn cour2">Dragon<br>Board</a>
+  <a href="/03-MSCS-Express/EXCS18/" class="btn cour3">Cloud<br>Services</a>
+  <br>
+  <a href="/03-MSCS-Express/EXCS16/" class="btn cour1">Communication<br>Tech</a>
+  <a href="/03-MSCS-Express/EXCS17/" class="btn cour2">Multimedia<br>Tech</a>
+  <a href="/03-MSCS-Express/EXCS18/" class="btn cour3">Capstone<br>Project</a>
   </span>
 </div>
 
