@@ -55,10 +55,10 @@ xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx
 <div>
   <span class="btn spec1"><span class="btn spec2">Specialization 05 - Interaction Design</span>
   <br>
-  <a href="/03-MSCS-Express/EXCS13/" class="btn icon1">Human-Centered<br>Design</a>
+  <a href="/03-MSCS-Express/EXCS13/" class="btn icon1">HC<br>Design</a>
   <a href="/03-MSCS-Express/EXCS14/" class="btn icon2">Design<br>Principles</a>
   <a href="/03-MSCS-Express/EXCS15/" class="btn icon3">Social<br>Computing</a>
-  <a href="/03-MSCS-Express/EXCS15/" class="btn icon4">Input<br>& Interaction</a>
+  <a href="/03-MSCS-Express/EXCS15/" class="btn icon4">Input<br>Interaction</a>
   <br>
   <a href="/03-MSCS-Express/EXCS13/" class="btn icon1">User<br>Experience</a>
   <a href="/03-MSCS-Express/EXCS14/" class="btn icon2">Information<br>Design</a>
@@ -80,9 +80,10 @@ xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx
 <div>
   <span class="btn spec1"><span class="btn spec2">Specialization 07 - Python Analytics</span>
   <br>
-  <a href="/03-MSCS-Express/EXCS19/" class="btn cour1"><br></a>
-  <a href="/03-MSCS-Express/EXCS20/" class="btn cour2"><br></a>
-  <a href="/03-MSCS-Express/EXCS21/" class="btn cour3"><br></a>
+  <a href="/03-MSCS-Express/EXCS19/" class="btn cour1">Data<br>Visualization</a>
+  <a href="/03-MSCS-Express/EXCS20/" class="btn cour2">Predictive<br>Analytics</a>
+  <a href="/03-MSCS-Express/EXCS21/" class="btn cour3">Predictive<br>Modeling</a>
+  <a href="/03-MSCS-Express/EXCS21/" class="btn cour3">Machine<br>Learning</a>
   </span>
   <span class="btn spec1"><span class="btn spec2">Specialization 08 - TechTeam Leadership</span>
   <br>
