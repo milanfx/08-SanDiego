@@ -1,112 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <meta name="viewport" content="width=930, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ page.title }}</title>
   <style>
     :root {
-      --c1: #0d47a1;
-      --c2: #1565c0;
-      --c3: #1976d2;
-      --c4: #1e88e5;
-      --c5: #2196f3;
-      --c6: #e3f2fd;
+      --c1: #311b92;
+      --c2: #4527a0;
+      --c3: #512da8;
+      --c4: #5e35b1;
+      --c5: #673ab7;
+      --c0: #d1c4e9;
     }
+
     body {
-      font-family: 'Roboto Condensed', sans-serif;
       background-color: Ivory;
       color: DarkSlateGray;
-      line-height: 1.5;
-      font-size: 1rem;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 10px;
-    }
-    h2, h3, h4 {
-      background-color: Ivory;
-      color: var(--c1);
-      text-align: left;
-      font-family: 'Roboto Condensed', sans-serif;
-      font-weight: bold;
-      margin: 0;
-      overflow: hidden;
-      padding: 5px;
-    }
-    h2 { font-size: 24px; }
-    h3 {
-      font-size: 16px;
-      border-top: 2px solid var(--c1);
-      border-bottom: 2px solid var(--c1);
-    }
-    h4 { font-size: 16px; }
-    .title {
-      background-color: var(--c1);
-      color: Ivory;
-      text-align: center;
-      font-family: 'Roboto Condensed', sans-serif;
-      font-size: 40px;
-      margin: 0;
-      overflow: hidden;
-      padding: 10px 0;
-    }
-    .btn {
-      display: inline-block;
-      background-color: var(--c1);
-      color: Ivory;
-      text-align: center;
       font-family: 'Roboto Condensed', sans-serif;
       font-size: 16px;
       line-height: 1;
-      margin: 5px;
+    }
+
+    .container {
+      max-width: 940px;
+      min-width: 720px;
+      min-height: 1250px;
+      padding: 5px;
+    }
+
+    .btn {
+      display: block;
+      background-color: var(--c1);
+      color: Ivory;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 16px;
       overflow: hidden;
-      text-decoration: none;
+      margin: 5px 0px;
       padding: 5px;
       border-radius: 5px;
       border: 2px solid var(--c1);
+      box-sizing: border-box;
+      text-decoration: none;
+      flex-shrink: 0;
+      width: 100%;
     }
-    .btn.back { font-size: 14px; width: 90px; }
-    .btn.spec1 { background-color: var(--c6); width: 420px; text-align: left; }
-    .btn.spec2 {
+
+    .btn.title {
+      font-size: 40px;
+      border-radius: 0px;
+      border: 0px;
+      line-height: 1.2;
+      white-space: nowrap;
+      margin: 0px 0px;
+    }
+
+    .btn.line {
+      background-color: Ivory;
+      border-radius: 0px;
+      border: 5px solid var(--c1);
+      padding: 3px 0px;
+      border-left: none;
+      border-right: none;
+    }
+
+    .btn.back {
+      background-color: Ivory;
+      color: var(--c1);
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 0px;
+      white-space: nowrap;
+      line-height: 1;
+    }
+
+    .btn.sign {
+      background-color: Ivory;
+      color: var(--c1);
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 0px;
+      border: 2px solid var(--c1);
+      border-left: none;
+      border-right: none;
+      white-space: nowrap;
+      line-height: 1;
+    }
+
+    .btn.name {
       background-color: Ivory;
       color: var(--c1);
       font-weight: bold;
-      width: 330px;
+      border-radius: 0px;
+      text-align: left;
+      border-left: none;
+      border-right: none;
+      white-space: nowrap;
+    }
+
+    .btn.topic {
+      background-color: var(--c2);
+      font-size: 24px;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .btn.text {
+      background-color: var(--c0);
+      color: var(--c1);
       text-align: left;
     }
-    .btn.cour1 { background-color: var(--c1); width: 110px; }
-    .btn.cour2 { background-color: var(--c2); width: 110px; }
-    .btn.cour3 { background-color: var(--c3); width: 110px; }
 
-    .btn.icon1 { background-color: var(--c1); width: 75px; }
-    .btn.icon2 { background-color: var(--c2); width: 75px; }
-    .btn.icon3 { background-color: var(--c3); width: 75px; }
-    .btn.icon4 { background-color: var(--c4); width: 75px; }
+    .btn.box1 { background-color: var(--c1); }
+    .btn.box2 { background-color: var(--c2); }
+    .btn.box3 { background-color: var(--c3); }
+    .btn.box4 { background-color: var(--c4); }
+    .btn.box5 { background-color: var(--c5); }
+
+    .block {
+      display: grid;
+      gap: 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: grid;
+      gap: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
-    <div style="border-top: 5px solid var(--c1);"></div>
-    <div style="border-top: 3px solid Ivory;"></div>
-    <div class="title">
-      {{ page.title }}
+    <div class="row">
+      <div class="btn line">
+        <div class="btn title">
+          {{ page.title }}
+        </div>
+      </div>
     </div>
-    <div style="border-bottom: 3px solid Ivory;"></div>
-    <div style="border-bottom: 5px solid var(--c1);"></div>
-    <br>
-    <a href="/" class="btn back">Go Home</a>
-    <a href="javascript:history.back()" class="btn back">Go Back</a>
-    <br>
+    <div class="row" style="grid-template-columns: 1fr 6fr 1fr;">
+      <a href="/" class="btn back">Go Home</a>
+      <a href="#" class="btn sign">Study Notes</a>
+      <a href="javascript:history.back()" class="btn back">Go Back</a>
+    </div>
     <div>
       {{ content }}
     </div>
-    <br>
-    <a href="/" class="btn back">Go Home</a>
-    <a href="javascript:history.back()" class="btn back">Go Back</a>
+    <div class="row" style="grid-template-columns: 1fr 6fr 1fr;">
+      <a href="/" class="btn back">Go Home</a>
+      <a href="#" class="btn sign">MilanFX</a>
+      <a href="javascript:history.back()" class="btn back">Go Back</a>
+    </div>
   </div>
 </body>
 </html>
