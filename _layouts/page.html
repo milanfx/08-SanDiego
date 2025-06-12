@@ -1,122 +1,94 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>{{ page.title }}</title>
   <style>
     :root {
-      --c1: #311b92;
-      --c2: #4527a0;
-      --c3: #512da8;
-      --c4: #5e35b1;
-      --c5: #673ab7;
-      --c0: #d1c4e9;
+      --word: #FFCB05;
+      --back: #00274C;
     }
 
     body {
-      background-color: Ivory;
-      color: DarkSlateGray;
+      background-color: var(--back);
+      color: var(--word);
       font-family: 'Roboto Condensed', sans-serif;
       font-size: 16px;
-      line-height: 1;
     }
 
     .container {
-      max-width: 940px;
-      min-width: 720px;
-      min-height: 1250px;
+      max-width: 920px;
+      min-width: 750px;
+      min-height: 1280px;
       padding: 5px;
+      box-sizing: border-box;
     }
 
     .btn {
       display: block;
-      background-color: var(--c1);
-      color: Ivory;
-      text-align: center;
+      box-sizing: border-box;
+      background-color: var(--back);
+      color: var(--word);
       font-family: 'Roboto Condensed', sans-serif;
-      font-size: 16px;
-      overflow: hidden;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      line-height: 1.2;
       margin: 5px 0px;
       padding: 5px;
-      border-radius: 5px;
-      border: 2px solid var(--c1);
-      box-sizing: border-box;
-      text-decoration: none;
       flex-shrink: 0;
-      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .btn.line {
+      border-bottom: 2px solid var(--word);
+      padding: 0px 0px;
     }
 
     .btn.title {
       font-size: 40px;
-      border-radius: 0px;
       border: 0px;
-      line-height: 1.2;
-      white-space: nowrap;
-      margin: 0px 0px;
-    }
-
-    .btn.line {
-      background-color: Ivory;
-      border-radius: 0px;
-      border: 5px solid var(--c1);
-      padding: 3px 0px;
-      border-left: none;
-      border-right: none;
-    }
-
-    .btn.back {
-      background-color: Ivory;
-      color: var(--c1);
-      font-size: 14px;
-      font-weight: bold;
-      border-radius: 0px;
-      white-space: nowrap;
-      line-height: 1;
-    }
-
-    .btn.sign {
-      background-color: Ivory;
-      color: var(--c1);
-      font-size: 14px;
-      font-weight: bold;
-      border-radius: 0px;
-      border: 2px solid var(--c1);
-      border-left: none;
-      border-right: none;
-      white-space: nowrap;
-      line-height: 1;
-    }
-
-    .btn.name {
-      background-color: Ivory;
-      color: var(--c1);
-      font-weight: bold;
-      border-radius: 0px;
-      text-align: left;
-      border-left: none;
-      border-right: none;
-      white-space: nowrap;
-    }
-
-    .btn.topic {
-      background-color: var(--c2);
-      font-size: 24px;
-      line-height: 1.2;
-      white-space: nowrap;
+      line-height: 1.5;
+      margin: 0px;
     }
 
     .btn.text {
-      background-color: var(--c0);
-      color: var(--c1);
+      background-color: var(--back);
+      color: var(--word);
+      font-size: 16px;
       text-align: left;
+      font-weight: normal;
     }
 
-    .btn.box1 { background-color: var(--c1); }
-    .btn.box2 { background-color: var(--c2); }
-    .btn.box3 { background-color: var(--c3); }
-    .btn.box4 { background-color: var(--c4); }
-    .btn.box5 { background-color: var(--c5); }
+    .btn.topic {
+      background-color: var(--word);
+      color: var(--back);
+      font-size: 28px;
+    }
+
+    .btn.name {
+      font-size: 24px;
+      text-align: left;
+      border-bottom: 2px solid var(--word);
+    }
+
+    .btn.box1 {
+      font-size: 14px;
+      border-radius: 5px;
+      border: 2px solid var(--word);
+    }
+
+    .btn.box2 {
+      background-color: var(--word);
+      color: var(--back);
+      font-size: 14px;
+      border-radius: 5px;
+      border: 2px solid var(--word);
+    }
 
     .block {
       display: grid;
@@ -144,17 +116,22 @@
       </div>
     </div>
     <div class="row" style="grid-template-columns: 1fr 6fr 1fr;">
-      <a href="/" class="btn back">Go Home</a>
-      <a href="#" class="btn sign">Study Notes</a>
-      <a href="javascript:history.back()" class="btn back">Go Back</a>
+      <a href="/" class="btn">Go Home</a>
+      <a href="#" class="btn">MilanFX Notes</a>
+      <a href="javascript:history.back()" class="btn">Go Back</a>
     </div>
     <div>
       {{ content }}
     </div>
+    <br>
+    <div class="row">
+      <div class="btn line">
+      </div>
+    </div>
     <div class="row" style="grid-template-columns: 1fr 6fr 1fr;">
-      <a href="/" class="btn back">Go Home</a>
-      <a href="#" class="btn sign">MilanFX</a>
-      <a href="javascript:history.back()" class="btn back">Go Back</a>
+      <a href="/" class="btn">Go Home</a>
+      <a href="#" class="btn">MilanFX Notes</a>
+      <a href="javascript:history.back()" class="btn">Go Back</a>
     </div>
   </div>
 </body>

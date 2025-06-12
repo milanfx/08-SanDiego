@@ -1,12 +1,29 @@
 ---
 layout: page
-title: CS Express
+title: SanDiego Courses
 permalink: /
 ---
 
-<h3>Study Notes</h3>
-
-xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx
+<div class="block" style="grid-template-columns: 1fr 1fr;">
+  <div class="btn text">
+    <div class="btn name">Specialization 01 - Math Beginners</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/08-SanDiego/SD01/" class="btn box1">Differential<br>Calculus</a>
+      <a href="/08-SanDiego/SD02/" class="btn box2">Linear<br>Algebra</a>
+      <a href="/08-SanDiego/SD03/" class="btn box3">Integral<br>Calculus</a>
+      <a href="/08-SanDiego/SD04/" class="btn box3">Integral<br>Calculus</a>
+    </div>
+  </div>
+  <div class="btn text">
+    <div class="btn name">Specialization 02 - Analytics Beginners</div>
+    <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <a href="/08-SanDiego/SD05/" class="btn box1">Analytics<br>Introduction</a>
+      <a href="/08-SanDiego/SD06/" class="btn box2">Analytics<br>Modeling</a>
+      <a href="/08-SanDiego/SD07/" class="btn box3">Analytics<br>Optimization</a>
+      <a href="/08-SanDiego/SD08/" class="btn box4">Analytics<br>Reporting</a>
+    </div>
+  </div>
+</div>
 
 <div>
   <span class="btn spec1"><span class="btn spec2">Specialization 01 - Discrete Math</span>
