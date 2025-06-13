@@ -90,7 +90,7 @@ permalink: /
       <a href="/08-SanDiego/SD41/" class="btn box2">Communication<br>Tech</a>
       <a href="/08-SanDiego/SD42/" class="btn box2">Multimedia<br>Tech</a>
       <a href="/08-SanDiego/SD43/" class="btn box2">Capstone<br>Project</a>
-    </div
+    </div>
   </div>
   <div class="btn text">
     <div class="btn name">08 - Python Analytics</div>
