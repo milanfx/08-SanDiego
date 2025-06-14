@@ -18,11 +18,11 @@ permalink: /
   <div class="btn text">
     <div class="btn name">02 - Java Programming</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr;">
-      <a href="/08-SanDiego/SD06/" class="btn box2">Object<br>Oriented</a>
-      <a href="/08-SanDiego/SD07/" class="btn box2">Data<br>Structures</a>
-      <a href="/08-SanDiego/SD08/" class="btn box2">Advanced<br>Structures</a>
-      <a href="/08-SanDiego/SD09/" class="btn box2">Software<br>Engineering</a>
-      <a href="/08-SanDiego/SD10/" class="btn box2">Capstone<br>Project</a>
+      <a href="/08-SanDiego/SD06/" class="btn box1">Object<br>Oriented</a>
+      <a href="/08-SanDiego/SD07/" class="btn box1">Data<br>Structures</a>
+      <a href="/08-SanDiego/SD08/" class="btn box1">Advanced<br>Structures</a>
+      <a href="/08-SanDiego/SD09/" class="btn box1">Software<br>Engineering</a>
+      <a href="/08-SanDiego/SD10/" class="btn box1">Capstone<br>Project</a>
     </div>
   </div>
 </div>
@@ -42,12 +42,12 @@ permalink: /
   <div class="btn text">
     <div class="btn name">04 - Big Data</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr;">
-      <a href="/08-SanDiego/SD17/" class="btn box1">BigData<br>Introduction</a>
-      <a href="/08-SanDiego/SD18/" class="btn box1">BigData<br>Modeling</a>
-      <a href="/08-SanDiego/SD19/" class="btn box1">BigData<br>Integration</a>
-      <a href="/08-SanDiego/SD20/" class="btn box1">Machine<br>Learning</a>
-      <a href="/08-SanDiego/SD21/" class="btn box1">Graph<br>Analytics</a>
-      <a href="/08-SanDiego/SD22/" class="btn box1">Capstone<br>Project</a>
+      <a href="/08-SanDiego/SD17/" class="btn box2">BigData<br>Introduction</a>
+      <a href="/08-SanDiego/SD18/" class="btn box2">BigData<br>Modeling</a>
+      <a href="/08-SanDiego/SD19/" class="btn box2">BigData<br>Integration</a>
+      <a href="/08-SanDiego/SD20/" class="btn box2">Machine<br>Learning</a>
+      <a href="/08-SanDiego/SD21/" class="btn box2">Graph<br>Analytics</a>
+      <a href="/08-SanDiego/SD22/" class="btn box2">Capstone<br>Project</a>
     </div>
   </div>
 </div>
@@ -69,13 +69,13 @@ permalink: /
   <div class="btn text">
     <div class="btn name">06 - Bioinformatics</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-      <a href="/08-SanDiego/SD31/" class="btn box2">DNA<br>Messages</a>
-      <a href="/08-SanDiego/SD32/" class="btn box2">Genome<br>Sequencing</a>
-      <a href="/08-SanDiego/SD33/" class="btn box2">Genome<br>Comparing</a>
-      <a href="/08-SanDiego/SD34/" class="btn box2">Molecular<br>Evolution</a>
-      <a href="/08-SanDiego/SD35/" class="btn box2">Genomic<br>Clustering</a>
-      <a href="/08-SanDiego/SD36/" class="btn box2">DNA<br>Mutations</a>
-      <a href="/08-SanDiego/SD37/" class="btn box2">Bioinformatics<br>Capstone</a>
+      <a href="/08-SanDiego/SD31/" class="btn box1">DNA<br>Messages</a>
+      <a href="/08-SanDiego/SD32/" class="btn box1">Genome<br>Sequencing</a>
+      <a href="/08-SanDiego/SD33/" class="btn box1">Genome<br>Comparing</a>
+      <a href="/08-SanDiego/SD34/" class="btn box1">Molecular<br>Evolution</a>
+      <a href="/08-SanDiego/SD35/" class="btn box1">Genomic<br>Clustering</a>
+      <a href="/08-SanDiego/SD36/" class="btn box1">DNA<br>Mutations</a>
+      <a href="/08-SanDiego/SD37/" class="btn box1">Bioinformatics<br>Capstone</a>
     </div>
   </div>
 </div>
@@ -95,10 +95,10 @@ permalink: /
   <div class="btn text">
     <div class="btn name">08 - Python Analytics</div>
     <div class="row" style="grid-template-columns: 1fr 1fr 1fr;">
-      <a href="/08-SanDiego/SD44/" class="btn box1">Data<br>Visualization</a>
-      <a href="/08-SanDiego/SD45/" class="btn box1">Predictive<br>Analytics</a>
-      <a href="/08-SanDiego/SD46/" class="btn box1">Predictive<br>Modeling</a>
-      <a href="/08-SanDiego/SD47/" class="btn box1">Machine<br>Learning</a>
+      <a href="/08-SanDiego/SD44/" class="btn box2">Data<br>Visualization</a>
+      <a href="/08-SanDiego/SD45/" class="btn box2">Predictive<br>Analytics</a>
+      <a href="/08-SanDiego/SD46/" class="btn box2">Predictive<br>Modeling</a>
+      <a href="/08-SanDiego/SD47/" class="btn box2">Machine<br>Learning</a>
     </div>
   </div>
 </div>
