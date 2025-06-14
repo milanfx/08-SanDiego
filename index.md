@@ -64,7 +64,7 @@ permalink: /
       <a href="/08-SanDiego/SD28/" class="btn box2">Information<br>Design</a>
       <a href="/08-SanDiego/SD29/" class="btn box2">Designing<br>Experiments</a>
       <a href="/08-SanDiego/SD30/" class="btn box2">Capstone<br>Project</a>
-    </div
+    </div>
   </div>
   <div class="btn text">
     <div class="btn name">06 - Bioinformatics</div>
