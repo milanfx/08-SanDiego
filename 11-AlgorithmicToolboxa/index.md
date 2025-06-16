@@ -15,7 +15,7 @@ permalink: /SD11/
 </div></div></div>
 
 <div class="row"><div class="btn text" markdown="1">
-<div class="btn name">Module 01 - Greedy Algorithms</div>
+<div class="btn name">Module 02 - Greedy Algorithms</div>
 - 01 - Greedy Algorithms
 - 02 - Celebration Party
 - 03 - Maximum Value of the Loot
@@ -46,7 +46,7 @@ permalink: /SD11/
 </div></div></div>
 
 <div class="row"><div class="btn text" markdown="1">
-<div class="btn name">Module 04 - Dynamic Programming</div>
+<div class="btn name">Module 05 - Dynamic Programming</div>
 - 01 - Knapsack
 - 02 - Placing Parentheses
 <div class="row" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;">
